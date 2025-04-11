@@ -266,21 +266,6 @@ endmodule
 \end{lstlisting}
 
 \subsection{Proof that XORing All Bits Generates Even Parity}
-The key idea behind using the XOR operator (\(\oplus\)) to generate the even parity bit relies on its properties:
-\begin{itemize}
-    \item \textbf{Associativity:} \((a \oplus b) \oplus c = a \oplus (b \oplus c)\).
-    \item \textbf{Commutativity:} \(a \oplus b = b \oplus a\).
-    \item \textbf{Identity:} \(a \oplus 0 = a\).
-    \item \textbf{Self-Inverse:} \(a \oplus a = 0\).
-\end{itemize}
-When we compute
-\[
-p = b_0 \oplus b_1 \oplus \cdots \oplus b_7,
-\]
-this is equivalent to summing the bits modulo 2:
-\[
-p = \sum_{i=0}^{7} b_i \pmod{2}.
-\]
 \begin{itemize}
     \item If there is an even number of 1's, the pairs of 1's cancel each other (\(1 \oplus 1 = 0\)) and thus \(p = 0\).
     \item If there is an odd number of 1's, one unpaired 1 remains, yielding \(p = 1\).
