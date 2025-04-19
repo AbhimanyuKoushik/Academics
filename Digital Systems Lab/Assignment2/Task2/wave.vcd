@@ -1,0 +1,238 @@
+$date
+	Fri Apr 18 19:27:29 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder8 $end
+$var wire 1 ! carryout $end
+$var wire 8 " out [7:0] $end
+$var reg 1 # carryin $end
+$var reg 8 $ in1 [7:0] $end
+$var reg 8 % in2 [7:0] $end
+$scope module dut $end
+$var wire 1 # carryin $end
+$var wire 1 ! carryout $end
+$var wire 8 & in1 [7:0] $end
+$var wire 8 ' in2 [7:0] $end
+$var wire 9 ( tempcarryout [8:0] $end
+$var wire 8 ) out [7:0] $end
+$scope begin adderloop[0] $end
+$var parameter 2 * i $end
+$scope module addonebit $end
+$var wire 1 + carryin $end
+$var wire 1 , carryout $end
+$var wire 1 - in1 $end
+$var wire 1 . in2 $end
+$var wire 1 / out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[1] $end
+$var parameter 2 0 i $end
+$scope module addonebit $end
+$var wire 1 1 carryin $end
+$var wire 1 2 carryout $end
+$var wire 1 3 in1 $end
+$var wire 1 4 in2 $end
+$var wire 1 5 out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[2] $end
+$var parameter 3 6 i $end
+$scope module addonebit $end
+$var wire 1 7 carryin $end
+$var wire 1 8 carryout $end
+$var wire 1 9 in1 $end
+$var wire 1 : in2 $end
+$var wire 1 ; out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[3] $end
+$var parameter 3 < i $end
+$scope module addonebit $end
+$var wire 1 = carryin $end
+$var wire 1 > carryout $end
+$var wire 1 ? in1 $end
+$var wire 1 @ in2 $end
+$var wire 1 A out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[4] $end
+$var parameter 4 B i $end
+$scope module addonebit $end
+$var wire 1 C carryin $end
+$var wire 1 D carryout $end
+$var wire 1 E in1 $end
+$var wire 1 F in2 $end
+$var wire 1 G out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[5] $end
+$var parameter 4 H i $end
+$scope module addonebit $end
+$var wire 1 I carryin $end
+$var wire 1 J carryout $end
+$var wire 1 K in1 $end
+$var wire 1 L in2 $end
+$var wire 1 M out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[6] $end
+$var parameter 4 N i $end
+$scope module addonebit $end
+$var wire 1 O carryin $end
+$var wire 1 P carryout $end
+$var wire 1 Q in1 $end
+$var wire 1 R in2 $end
+$var wire 1 S out $end
+$upscope $end
+$upscope $end
+$scope begin adderloop[7] $end
+$var parameter 4 T i $end
+$scope module addonebit $end
+$var wire 1 U carryin $end
+$var wire 1 V carryout $end
+$var wire 1 W in1 $end
+$var wire 1 X in2 $end
+$var wire 1 Y out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 T
+b110 N
+b101 H
+b100 B
+b11 <
+b10 6
+b1 0
+b0 *
+$end
+#0
+$dumpvars
+1Y
+0X
+0W
+0V
+1U
+1S
+1R
+1Q
+1P
+1O
+1M
+1L
+1K
+1J
+1I
+1G
+1F
+1E
+1D
+1C
+1A
+1@
+1?
+1>
+1=
+1;
+1:
+19
+18
+17
+15
+14
+13
+12
+11
+1/
+1.
+1-
+1,
+1+
+b11111111 )
+b11111111 (
+b1111111 '
+b1111111 &
+b1111111 %
+b1111111 $
+1#
+b11111111 "
+z!
+$end
+#10000
+05
+0;
+0A
+0G
+0M
+0S
+b1 "
+b1 )
+0Y
+01
+07
+0=
+0C
+0I
+0O
+0U
+0,
+02
+08
+0>
+0D
+0J
+b1 (
+0P
+0.
+04
+0:
+0@
+0F
+0L
+0R
+0-
+03
+09
+0?
+0E
+0K
+0Q
+b0 %
+b0 '
+b0 $
+b0 &
+#20000
+1S
+1O
+1J
+1I
+1D
+1A
+15
+1;
+0M
+b1001110 "
+b1001110 )
+0/
+0+
+1@
+1F
+13
+19
+1E
+1K
+b1100000 (
+0#
+b11000 %
+b11000 '
+b110110 $
+b110110 &
+#30000
